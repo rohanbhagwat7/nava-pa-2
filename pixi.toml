@@ -1,7 +1,7 @@
 [project]
 authors = ["deadline-boomerang <rohan.bhagwat@buyerassist.io>"]
 channels = ["conda-forge"]
-description = "Add a short description here"
+description = "Organization Management System"
 name = "nava-pa-2"
 platforms = ["win-64"]
 version = "0.1.0"
@@ -10,3 +10,7 @@ version = "0.1.0"
 
 [dependencies]
 pixi-pycharm = ">=0.0.8,<0.0.9"
+fastapi = ">=0.115.6,<0.116"
+pytest = ">=8.3.4,<9"
+grpcio = ">=1.67.1,<2"
+grpcio-tools = ">=1.67.1,<2"
