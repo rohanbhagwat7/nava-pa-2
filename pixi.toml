@@ -1,0 +1,12 @@
+[project]
+authors = ["deadline-boomerang <rohan.bhagwat@buyerassist.io>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "nava-pa-2"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pixi-pycharm = ">=0.0.8,<0.0.9"
